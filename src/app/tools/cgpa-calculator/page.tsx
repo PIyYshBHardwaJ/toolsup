@@ -17,6 +17,9 @@ const GRADE_POINTS: Record<string, number> = {
 
 import Footer from "@/components/Footer";
 
+import Link from 'next/link';
+
+
 
 export default function CgpaCalculatorPage() {
   const [subjects, setSubjects] = useState(5);
@@ -226,7 +229,13 @@ export default function CgpaCalculatorPage() {
           <ul className="list-disc ml-6 text-blue-600">
             <li>Overall CGPA Calculator</li>
             <li>Percentage Calculator</li>
-            <li>GPA Calculator</li>
+            <ul className="list-disc ml-6 text-blue-600">
+              <li>
+              <Link href="/tools/gpa-calculator" className="hover:underline">
+                  GPA Calculator
+                </Link>
+              </li>
+            </ul>
           </ul>
         </Info>
 
