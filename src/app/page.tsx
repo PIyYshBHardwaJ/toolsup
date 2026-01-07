@@ -54,9 +54,22 @@ export default function Home() {
                <p className="text-sm text-gray-600">
                 Calculate your CGPA easily for college and university courses.
                 </p>
-              </Link>
+            </Link>
 
-            
+            <Link
+               href="/tools/gpa-calculator"
+               className="relative bg-white border border-gray-200 rounded-2xl p-7 hover:shadow-xl transition"
+>
+               <span className="absolute top-4 right-4 text-xs bg-black text-white px-3 py-1 rounded-full">
+               Live
+               </span>
+               <h3 className="text-xl font-semibold text-black mb-3">
+               GPA Calculator
+              </h3>
+               <p className="text-sm text-gray-600">
+                Calculate your GPA easily for college and university courses.
+                </p>
+            </Link>
 
 
             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-7">
