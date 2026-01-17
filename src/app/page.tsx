@@ -131,6 +131,22 @@ export default function Home() {
                 </p>
             </Link>
 
+            <Link
+               href="/tools/attendance-percentage-calculator"
+               className="relative bg-white border border-gray-200 rounded-2xl p-7 hover:shadow-xl transition"
+>
+               <span className="absolute top-4 right-4 text-xs bg-black text-white px-3 py-1 rounded-full">
+               Live
+               </span>
+               <h3 className="text-xl font-semibold text-black mb-3">
+                Attendance Percentage Calculator
+              </h3>
+               <p className="text-sm text-gray-600">
+                Calculate your attendance percentage using total classes conducted
+                and classes attended. Simple and accurate for college students.
+                </p>
+            </Link>
+
             
 
             <div className="bg-gray-50 border border-gray-200 rounded-2xl p-7">
